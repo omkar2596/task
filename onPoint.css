@@ -1,0 +1,100 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    align-items:center ;
+}
+a{
+text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+#nav{
+    position: fixed;
+    background-color: aliceblue;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.main-div{
+justify-content: space-between;
+padding: 8px 0;
+}
+.logo img{
+height: 80px;
+width: 80px;
+}
+.nav-links ul{
+    gap: 30px;
+}
+.nav-links li a{
+   font-size: 1.7vw;
+   color: black;
+   font-weight: bold;
+}
+.search-bar {
+    height: 20px;
+}
+input.news-ip {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: 3px solid #e7aeae;
+    padding: 10px;
+}
+button.search-button {
+    border: none;
+    padding: 4px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+.cards-Container{
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: start;
+row-gap: 20px;
+}
+.cards-Container{
+    padding-block: 20px;
+    margin-top: 80px;
+}
+.card{
+width:350px ;
+min-height: 400px;
+border-radius: 5px;
+cursor: pointer;
+background-color: aliceblue;
+overflow: hidden;
+transition: all 0.3s ease;
+}
+.card:hover{
+    box-shadow: 1px 1px 8px gray;
+    background-color: #e7aeae;
+    transform: translateY(-2px);
+}
+.content h1 ,h4,h5{
+    color: rgb(11, 13, 13);
+
+}
+.content h4,h5{
+    color: rgb(69, 71, 71);
+
+}
+.card-header img{
+ height: 180px;
+ width: 100%;
+ object-fit: cover;   
+}
